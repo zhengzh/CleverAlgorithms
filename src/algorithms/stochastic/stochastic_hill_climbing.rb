@@ -38,7 +38,7 @@ if __FILE__ == $0
   # problem configuration
   num_bits = 64
   # algorithm configuration
-  max_iterations = 1000
+  max_iterations = 100
   # execute the algorithm
   best = search(max_iterations, num_bits)
   puts "Done. Best Solution: c=#{best[:cost]}, v=#{best[:vector].join}"
